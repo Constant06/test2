@@ -1,0 +1,650 @@
+#all
+{
+	position: fixed;
+	z-index: 10;
+	text-align:center;
+    width: 100%;
+}
+
+.hautdepage
+{
+	position:fixed;
+	background-color:black;
+	height:11.5%;
+	width:100%;
+	left:0%;
+	top:0%;
+	z-index:10;
+	margin-right: 2%;
+}
+
+.ACCUEIL
+{
+	position:absolute;
+	color:white;
+	top:0%;
+	text-align:center;
+	width: 99%;	
+	z-index:10;
+	text-decoration:none;
+	font-size:150%;
+	font-family:"Pixeled";
+}
+
+.JEUX
+{
+	position:absolute;
+	color:white;
+	top:0%;
+	text-align:center;
+	z-index:2;
+	text-decoration:none;
+	font-size:150%;
+	font-family:"Pixeled";
+}
+
+.ACTUALITE
+{
+	position:absolute;
+	color:white;
+	top:0%;
+	z-index:2;
+	text-decoration:none;
+	font-size:150%;
+	font-family:"Pixeled";
+}
+
+.ACCUEIL {
+  margin: 0;
+  font: 400 80px/1 "Pixeled";
+  /*le texte accueil et tout*/
+}
+
+.ACCUEIL {
+  top:14px;
+  font-size: 22px;
+  z-index:10;
+  /*configuration du texte*/
+  padding: .25em 15px;
+  position: relative;
+  transition: .5s ease;
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.ACCUEIL::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 24px;
+  bottom: 0;
+  /*bloc d'animation*/
+  height:35px;
+  width: 5px;
+  transition: .5s ease;
+  background: white;
+  z-index: -1;
+}
+
+.ACCUEIL:hover {
+  color: red;
+  /*couleur du texte au survol*/
+}
+
+.ACCUEIL:hover::before {
+  width: 100%;
+  /*animation*/
+}
+
+.JEUX {
+  margin: 0;
+  font: 400 80px/1 "Pixeled";
+  /*le texte accueil et tout*/
+}
+
+.JEUX {
+  top:14px;
+  font-size: 22px;
+  z-index:10;
+  /*configuration du texte*/
+  padding: .25em 15px;
+  position: relative;
+  transition: .5s ease;
+  color: orange;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.JEUX::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 24px;
+  bottom: 0;
+  /*bloc d'animation*/
+  height:35px;
+  width: 5px;
+  transition: .5s ease;
+  background: white;
+  z-index: -1;
+}
+
+.JEUX:hover {
+  color: orange;
+  /*couleur du texte au survol*/
+}
+
+.JEUX:hover::before {
+  width: 100%;
+  /*animation*/
+}
+
+.ACTUALITE {
+
+  font: 400 80px/1 "Pixeled";
+  /*le texte accueil et tout*/
+}
+
+.ACTUALITE {
+  top:14px;
+  font-size: 22px;
+  z-index:10;
+  /*configuration du texte*/
+  padding: .25em 15px;
+  position: relative;
+  transition: .5s ease;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.ACTUALITE::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 24px;
+  bottom: 0;
+  /*bloc d'animation*/
+  height:35px;
+  width: 5px;
+  transition: .5s ease;
+  background: white;
+  z-index: -1;
+}
+
+.ACTUALITE:hover {
+  color: yellow;
+  /*couleur du texte au survol*/
+}
+
+.ACTUALITE:hover::before {
+  width: 100%;
+  /*animation*/
+}
+.newjeu
+{
+	position: absolute;
+	font-family: "Pixeled";
+	color: #39ff36;
+	font-size:18px;
+	top:28%;
+	left:2%;
+	z-index: 2;
+	background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nospartenaires
+{
+	position: absolute;
+	font-family: "Pixeled";
+	color: white;
+	font-size:18px;
+	top:98%;
+	left:2%;
+	background: -webkit-gradient(linear,left top, left bottom, from(#9EBF1D), to(#BF1D5E));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.rainbow6
+{
+	position:absolute;
+	height:32%;
+	width:22.5%;
+	top:45%;
+	left:8%;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+.rainbow6:hover
+{
+	position:absolute;
+	height:33%;
+	width:23.5%;
+	top:44.5%;
+	left:7.5%;
+	z-index: 2;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+.fifa18
+{
+	position:absolute;
+	height:32%;
+	width:22.5%;
+	top:45%;
+	left:40%;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+.fifa18:hover
+{
+	position:absolute;
+	height:33%;
+	width:23.5%;
+	top:44.5%;
+	left:39.5%;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+.minecraft
+{
+	position:absolute;
+	height:33%;
+	width:23.5%;
+	top:45%;
+	left:71.5%;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+.minecraft:hover
+{
+	position:absolute;
+	height:33%;
+	width:23.5%;
+	top:44.5%;
+	left:71.5%;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+.instantgaming
+{
+	position:absolute;
+	height:32%;
+	width:22.5%;
+	top:120%;
+	left:8%;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+
+.instantgaming:hover
+{
+	position:absolute;
+	height:33%;
+	width:23.5%;
+	top:119.5%;
+	left:7.5%;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	opacity:50%;
+}
+
+.igvault
+{
+	position:absolute;
+	height:32%;
+	width:22.5%;
+	top:120%;
+	left:40%;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+.igvault:hover
+{
+	position:absolute;
+	height:33%;
+	width:23.5%;
+	top:119.5%;
+	left:39.5%;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+.g2a
+{
+	position:absolute;
+	height:32%;
+	width:22.5%;
+	top:120%;
+	left:72%;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+.g2a:hover
+{
+	position:absolute;
+	height:33%;
+	width:23.5%;
+	top:119.5%;
+	left:71.5%;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+.telecharger
+{
+	position:absolute;
+	z-index:5;
+	top:81.5%;
+	left:15%;
+	text-decoration:none;
+	color:black;
+	font-family:"Lemon/Milk";
+}
+
+.telecharger2
+{
+	position:absolute;
+	z-index:5;
+	top:81.5%;
+	left:47%;
+	text-decoration:none;
+	color:black;
+	font-family:"Lemon/Milk";
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+
+.telecharger3
+{
+	position:absolute;
+	z-index:5;
+	top:81.5%;
+	left:79%;
+	text-decoration:none;
+	color:black;
+	font-family:"Lemon/Milk";
+}
+
+
+.minecraft
+{
+	position:absolute;
+	height:32%;
+	width:22.5%;
+	top:45%;
+	left:72%;
+}
+
+.bandenoire
+{
+	position:absolute;
+	background-color:black;
+	height:50%;
+	width:100%;
+	left:0%;
+	top:40%;
+	z-index:-1;
+}
+
+.bandenoire2
+{
+	position:absolute;
+	background-color:black;
+	height:50%;
+	width:100%;
+	left:0%;
+	top:110%;
+	z-index:-1;
+}
+
+.bandegrisebas
+{
+	position:absolute;
+	background-color:#525252;
+	height:15%;
+	width:100%;
+	left:0%;
+	top:160%;
+	z-index:-1;
+}
+
+.background
+{
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:10%;
+	left:0%;
+	z-index:-2;
+}
+
+#cadretel1
+{
+	position: absolute;
+	height:6%;
+	width:22.5%;
+	top: 80.5%;
+	left:8%;
+	right: 69%;
+	z-index: 2;
+	background-color: white;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+#cadretel1:hover
+{
+	position: absolute;
+	height:8%;
+	width:23.5%;
+	top:79.5%;
+	left:7.5%;
+	z-index: 2;
+	background-color:#ff2323;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+#cadretel2
+{
+	position: absolute;
+	height:6%;
+	width:22.5%;
+	top: 80.5%;
+	left:40%;
+	z-index: 2;
+	background-color: white;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+#cadretel2:hover
+{
+	position: absolute;
+	height:8%;
+	width:23.5%;
+	top:79.5%;
+	left:39.5%;
+	z-index: 2;
+	background-color:#fb8523;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+#cadretel3
+{
+	position: absolute;
+	height:6%;
+	width:22.5%;
+	top: 80.5%;
+	left:72%;
+	z-index: 2;
+	background-color: white;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+#cadretel3:hover
+{
+	position: absolute;
+	height:8%;
+	width:23.5%;
+	top:79.5%;
+	left:71.5%;
+	z-index: 2;
+	background-color:#fce822;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+.nomdusite
+{
+	position: fixed;
+	top:-3.4%;
+	bottom: 100%;
+	left:8.5%;
+	color:white;
+	z-index:10;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+
+.nomdusite:hover
+{
+	position: fixed;
+	top:-3.4%;
+	bottom: 100%;
+	left:7%;
+	color:white;
+	z-index:20;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+
+.free
+{
+	position: fixed;
+	top:1.3%;
+	bottom: 100%;
+	left:11.8%;
+	color:white;
+	z-index:10;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+
+.free:hover
+{
+	position: fixed;
+	top:1.2%;
+	bottom: 100%;
+	left:9%;
+	color:white;
+	z-index:20;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+
+h1
+{	
+	animation: myfirst 10s infinite;
+	-webkit-animation: myfirst 10s infinite;
+	z-index: 9;
+	}
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes myfirst {
+    0%{color:red;}
+    25%{color: yellow;}
+    50%{color: blue;}
+    100%{color: green;}
+}
+
+h1
+{
+	position:absolute;
+	color:#4300A6;
+	top:15%;
+	left:42%;
+	font-family:"Pixeled";
+	font-size:120%;	
+}
+
+
+.marque
+{
+	position: absolute;
+	font-family: "Pixeled";
+	color: white;
+	font-size:10px;
+	top:167%;
+	text-align:center;
+	width: 99%;	
+	z-index: 10;
+}
+
+.E-hackers
+{
+	position: absolute;
+	top: 159%;
+	text-align: center;
+	width: 99%;
+	color: white;
+	font-family: "Lemon/Milk"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
